@@ -6,6 +6,7 @@ import os
 # endereco do video e endereco onde salvar
 link = input("Digite o link que deseja baixar: ")
 path = input("Digite o caminho onde deseja salvar o arquivo: ")
+
 yt = YouTube(link)
 
 # comeca o dowload
